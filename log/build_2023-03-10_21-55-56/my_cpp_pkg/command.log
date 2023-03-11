@@ -1,0 +1,4 @@
+Invoking command in '/home/kavin/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kavin/ros2_ws/install/my_py_pkg LINENO=1 _=/usr/bin/env /usr/bin/cmake --build /home/kavin/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+Invoked command in '/home/kavin/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kavin/ros2_ws/install/my_py_pkg LINENO=1 _=/usr/bin/env /usr/bin/cmake --build /home/kavin/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+Invoking command in '/home/kavin/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kavin/ros2_ws/install/my_py_pkg LINENO=1 _=/usr/bin/env /usr/bin/cmake --install /home/kavin/ros2_ws/build/my_cpp_pkg
+Invoked command in '/home/kavin/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kavin/ros2_ws/install/my_py_pkg LINENO=1 _=/usr/bin/env /usr/bin/cmake --install /home/kavin/ros2_ws/build/my_cpp_pkg

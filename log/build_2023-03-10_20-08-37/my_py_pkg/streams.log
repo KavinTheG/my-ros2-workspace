@@ -1,0 +1,14 @@
+[0.404s] Invoking command in '/home/kavin/ros2_ws/src/my_py_pkg': LINENO=1 PYTHONPATH=/home/kavin/ros2_ws/build/my_py_pkg/prefix_override:/home/kavin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/kavin/ros2_ws/build/my_py_pkg/build install --record /home/kavin/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.536s] running egg_info
+[0.538s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.538s] running build
+[0.538s] running build_py
+[0.538s] running install
+[0.539s] running install_lib
+[0.539s] running install_data
+[0.539s] running install_egg_info
+[0.540s] removing '/home/kavin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.540s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/kavin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.541s] running install_scripts
+[0.552s] writing list of installed files to '/home/kavin/ros2_ws/build/my_py_pkg/install.log'
+[0.565s] Invoked command in '/home/kavin/ros2_ws/src/my_py_pkg' returned '0': LINENO=1 PYTHONPATH=/home/kavin/ros2_ws/build/my_py_pkg/prefix_override:/home/kavin/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/kavin/ros2_ws/build/my_py_pkg/build install --record /home/kavin/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

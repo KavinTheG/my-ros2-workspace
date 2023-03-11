@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 12.2.1
+-- The CXX compiler identification is GNU 12.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.9") found components: Interpreter 
+-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/libcrypto.so (found version "3.0.8")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kavin/ros2_ws/build/my_cpp_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:6:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kautoo[m[K’ was not declared in this scope; did you mean ‘[01m[Kauto[m[K’?
+    6 |     [01;31m[Kautoo[m[K node = std::make_shared<rclcpp::Node>("cpp_test");
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Kauto[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:8:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+    8 |     RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Hello Cpp Node");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:8:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    8 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:8:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    8 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:8:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Hello Cpp Node");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kavin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:9:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+    9 |     rclcpp::spin([01;31m[Knode[m[K);
+      |                  [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
