@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/isaac_ros_common.dir/src/vpi_utilities.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libisaac_ros_common.so[0m
+[100%] Built target isaac_ros_common

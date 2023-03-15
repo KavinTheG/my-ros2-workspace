@@ -1,0 +1,23 @@
+[0.245s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_bi3d_interfaces': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_bi3d_interfaces -- -j24 -l24
+[0.264s] [  3%] Built target isaac_ros_bi3d_interfaces__cpp
+[0.265s] [ 12%] Built target isaac_ros_bi3d_interfaces__rosidl_generator_c
+[0.266s] [ 12%] Built target ament_cmake_python_symlink_isaac_ros_bi3d_interfaces
+[0.275s] [ 22%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_cpp
+[0.276s] [ 32%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_c
+[0.276s] [ 41%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.276s] [ 51%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cpp
+[0.277s] [ 67%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_c
+[0.277s] [ 70%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_c
+[0.284s] [ 70%] Built target isaac_ros_bi3d_interfaces
+[0.290s] [ 74%] Built target isaac_ros_bi3d_interfaces__py
+[0.298s] [ 80%] Built target isaac_ros_bi3d_interfaces__rosidl_generator_py
+[0.305s] [ 87%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.306s] [100%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.306s] [100%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_c__pyext
+[0.482s] running egg_info
+[0.491s] writing isaac_ros_bi3d_interfaces.egg-info/PKG-INFO
+[0.491s] writing dependency_links to isaac_ros_bi3d_interfaces.egg-info/dependency_links.txt
+[0.492s] writing top-level names to isaac_ros_bi3d_interfaces.egg-info/top_level.txt
+[0.515s] reading manifest file 'isaac_ros_bi3d_interfaces.egg-info/SOURCES.txt'
+[0.515s] writing manifest file 'isaac_ros_bi3d_interfaces.egg-info/SOURCES.txt'
+[0.538s] [100%] Built target ament_cmake_python_build_isaac_ros_bi3d_interfaces_egg

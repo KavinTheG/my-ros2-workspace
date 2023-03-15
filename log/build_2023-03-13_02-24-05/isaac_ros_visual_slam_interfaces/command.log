@@ -1,0 +1,1 @@
+Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_visual_slam_interfaces': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_visual_slam_interfaces -- -j24 -l24

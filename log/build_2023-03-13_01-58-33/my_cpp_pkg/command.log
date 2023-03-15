@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/isaac_ros-dev/build/my_cpp_pkg': /usr/bin/cmake /workspaces/isaac_ros-dev/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/my_cpp_pkg
+Invoked command in '/workspaces/isaac_ros-dev/build/my_cpp_pkg' returned '1': /usr/bin/cmake /workspaces/isaac_ros-dev/src/my_cpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/my_cpp_pkg

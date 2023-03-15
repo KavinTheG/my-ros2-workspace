@@ -1,0 +1,1 @@
+Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_visual_slam_interfaces': /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_visual_slam/isaac_ros_visual_slam_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_visual_slam_interfaces

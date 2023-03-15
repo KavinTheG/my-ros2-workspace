@@ -1,0 +1,23 @@
+[0.249s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_visual_slam_interfaces': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_visual_slam_interfaces -- -j24 -l24
+[0.271s] [  1%] Built target isaac_ros_visual_slam_interfaces__cpp
+[0.271s] [  1%] Built target ament_cmake_python_symlink_isaac_ros_visual_slam_interfaces
+[0.273s] [ 12%] Built target isaac_ros_visual_slam_interfaces__rosidl_generator_c
+[0.285s] [ 23%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_cpp
+[0.285s] [ 35%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_c
+[0.285s] [ 46%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_introspection_cpp
+[0.286s] [ 57%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.287s] [ 69%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_introspection_c
+[0.288s] [ 80%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_fastrtps_c
+[0.294s] [ 80%] Built target isaac_ros_visual_slam_interfaces
+[0.301s] [ 81%] Built target isaac_ros_visual_slam_interfaces__py
+[0.311s] [ 91%] Built target isaac_ros_visual_slam_interfaces__rosidl_generator_py
+[0.319s] [ 94%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.319s] [ 97%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_c__pyext
+[0.320s] [100%] Built target isaac_ros_visual_slam_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.468s] running egg_info
+[0.476s] writing isaac_ros_visual_slam_interfaces.egg-info/PKG-INFO
+[0.476s] writing dependency_links to isaac_ros_visual_slam_interfaces.egg-info/dependency_links.txt
+[0.476s] writing top-level names to isaac_ros_visual_slam_interfaces.egg-info/top_level.txt
+[0.500s] reading manifest file 'isaac_ros_visual_slam_interfaces.egg-info/SOURCES.txt'
+[0.500s] writing manifest file 'isaac_ros_visual_slam_interfaces.egg-info/SOURCES.txt'
+[0.531s] [100%] Built target ament_cmake_python_build_isaac_ros_visual_slam_interfaces_egg

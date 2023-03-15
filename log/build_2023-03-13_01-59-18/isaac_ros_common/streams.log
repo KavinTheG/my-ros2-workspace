@@ -1,0 +1,4 @@
+[0.266s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_common': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_common -- -j24 -l24
+[0.541s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_common[0m
+[0.541s] [100%] Built target isaac_ros_common
+[0.570s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_common' returned '0': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_common -- -j24 -l24

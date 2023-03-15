@@ -1,0 +1,4 @@
+[0.269s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_common': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_common -- -j24 -l24
+[0.287s] [ 50%] [32mBuilding CXX object CMakeFiles/isaac_ros_common.dir/src/vpi_utilities.cpp.o[0m
+[3.697s] [100%] [32m[1mLinking CXX shared library libisaac_ros_common.so[0m
+[3.750s] [100%] Built target isaac_ros_common
