@@ -1,0 +1,1 @@
+/home/kavin/ros2_ws/build/ros2_esp32/ament_cmake_environment_hooks/local_setup.zsh
