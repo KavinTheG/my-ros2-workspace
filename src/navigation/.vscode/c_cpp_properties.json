@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kavin/ros2_ws/install/ros2_ouster/include/**",
+        "/home/kavin/ros2_ws/install/ouster_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/kavin/ros2_ws/src/navigation/include/**",
+        "/home/kavin/ros2_ws/src/ros2_ouster_drivers/ros2_ouster/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
